@@ -9,3 +9,54 @@
     background-color: aquamarine;
     padding:20px;
 }
+
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.information_card {
+    margin-top: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
+
+span {
+    font-weight: bold;
+    color: #0078d4;
+}
+
+/* Animation for the information card */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.information_card {
+    animation: fadeIn 1s ease-in;
+}
